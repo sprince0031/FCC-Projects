@@ -1,0 +1,124 @@
+
+body {
+	background-color: #131313 !important;
+}
+
+header {
+	background-color: #000000;
+	display: block;
+}
+/*
+header .nav ul {
+	margin-bottom: -5px !important;
+}
+*/
+header .nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+header .nav .pull-left a {
+	display: inline-block;
+	color: #f0e5e5;
+	font-family: 'Harmattan', 'Roboto', Sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+}
+
+header .nav .pull-left ul {
+	list-style-type: none;
+	margin-left: -5%;
+	
+}
+
+header .nav .pull-right i {
+	display: inline-block;
+	color: #f0e5e5;
+	 /*<font-size: 35px;> - not needed as "fa-3x used in html" */
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+header .nav .pull-right ul {
+	list-style-type: none;
+	margin-right: -5%;
+}
+
+li a:hover {
+    background-color: rgba(0,0,0,1);
+    color: #cf0000 !important;
+}
+
+li i:hover {
+	background-color: #000000;
+	color: #ffffff !important; 
+	/*Doesn't affect others as it is on the top.
+	Order of presidence gives more priority to the bottom most commands.*/
+}
+
+.git:hover {
+    background-color: #000000;
+    color: #6cc644 !important;    
+}
+
+.linkedin:hover {
+    background-color: #000000;
+    color: #0077B5 !important;    
+}
+
+.twitter:hover {
+    background-color: #000000;
+    color: #55acee !important;    
+}
+
+.fb:hover {
+    background-color: #000000;
+    color: #3b5998 !important;    
+}
+
+.gplus:hover {
+    background-color: #000000;
+    color: #dd4b39 !important;    
+}
+
+.active {
+    background-color: #cf0000;
+    color: #131313 !important;
+}
+/*
+.header .nav .pull-right li a img {
+	height: 34px;
+	width: 34px;
+}
+*/
+
+.jumbotron {
+	background-image: url("http://goo.gl/EaDsuI");
+	height: 500px;
+	background-size: cover;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.jumbotron .container {
+	position: relative;
+}
+
+.jumbotron img {
+	border-radius: 50%;
+	height: 60%;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.jumbotron h3 {
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 10%;
+	color: rgb(0,0,0) !important;
+}
