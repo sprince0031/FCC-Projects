@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Harmattan" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lora|Mirza|Oswald|Playfair+Display|Rakkas" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
@@ -19,73 +20,110 @@
 	<div class="row">
 		<header>
 		<div class="nav">
-			<div class="col-xs-12">
-				<div class="pull-left">
-					<ul>
+				<div class="col-xs-12">
+
+					<ul class="topnav" id="myTopnav">
 						<li>
-							<a href="#" class="active">About</a>
+							<a href="#intro" class="active hover">About</a>
 						</li>
 						<li>
-							<a href="#">Portfolio</a>
+							<a href="#" class="hover">Portfolio</a>
 						</li>
 						<li>
-							<a href="#">Contact Me</a>
+							<a href="#" class="hover">Contact Me</a>
 						</li>
+						<li class="icon">
+    						<a href="javascript:void(0);" style="color:#ffffff !important;" onclick="myFunction()">&#9776;</a>
+  						</li>
 					</ul>
 				</div>
+				<!--<div class="col-xs-6">	
 				<div class="pull-right">
-					<ul>
+					<ul class="fontawesome">
 						<!--<li>
 							<a href="https://www.freecodecamp.com/sprince0031" target="_blank">
 								<img src="https://pbs.twimg.com/profile_images/692531829287567360/ytP7U362.png">
 							</a>
-						</li> -->
+						</li>
 						<li>
 							<a href="http://codepen.io/sprince0031/" target="_blank">
-								<i class="fa fa-codepen fa-3x"></i>
+								<i class="fa fa-codepen fa-2x"></i>
 							</a>
 						</li>
 						<li>
 							<a href="https://github.com/sprince0031" target="_blank">
-								<i class="fa fa-github fa-3x git"></i>
+								<i class="fa fa-github fa-2x git"></i>
 							</a>
 						</li>
 						<li>
 							<a href="https://www.linkedin.com/in/siddharth-prince-731b68118?trk=hp-identity-name" target="_blank">
-								<i class="fa fa-linkedin fa-3x linkedin"></i>
+								<i class="fa fa-linkedin fa-2x linkedin"></i>
 							</a>
 						</li>
 						<li>
 							<a href="https://twitter.com/sidprince2931" target="_blank">
-								<i class="fa fa-twitter fa-3x twitter"></i>
+								<i class="fa fa-twitter fa-2x twitter"></i>
 							</a>
 						</li>
 						<li>
 							<a href="https://www.facebook.com/siddharth.prince.73" target="_blank">
-								<i class="fa fa-facebook-official fa-3x fb"></i>
+								<i class="fa fa-facebook-official fa-2x fb"></i>
 							</a>
 						</li>
 						<li>
 							<a href="https://plus.google.com/107216751712630767539" target="_blank">
-								<i class="fa fa-google-plus fa-3x gplus"></i>
+								<i class="fa fa-google-plus fa-2x gplus"></i>
 							</a>
 						</li>
 					</ul>
-				</div>
-			</div>
+				</div>	
+				</div>-->
 		</div>
 		</header>
 	</div>
 	</div>
 	<div class="jumbotron">
 		<div class="container">
-			<div class="col-md-6">
-				<img src="https://goo.gl/uLIhP3" class="img-responsive">
-			</div>
-			<div class="col-md-6">
-				<h3>The name is Siddharth and</h3> 
+			<div class="col-md-4">
+				<img src="https://goo.gl/uLIhP3" class="img-responsive"> <!-- My Profile Photo -->
+				<div class="row">
+				<ul class="sociolinks1">
+					<li>
+						<a href="https://twitter.com/sidprince2931" target="_blank">
+							<i class="fa fa-twitter fa-3x twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/siddharth.prince.73" target="_blank">
+							<i class="fa fa-facebook-official fa-3x fb"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://plus.google.com/107216751712630767539" target="_blank">
+							<i class="fa fa-google-plus fa-3x gplus"></i>
+						</a>
+					</li>
+				</ul>
+				</div>
+			</div><br>
+			<div class="col-md-8" id="intro">
+				<div class="MyName">SIDDHARTH PRINCE</div><hr>
+				<p>Hey there! I'm a student currently enrolled in a bachelor's course in Information Technology. I'm passionate about coding and intend to become a successful developer in the near future. I've completed a few online courses in object-oriented programming languages like Python and am currently learning website development and design. I live in the incredibly diverse and beautiful India.</p>
+				<p>Other than being a geek, I love movies, comics and music. I play guitar to an extent and love to sketch a portrait once in a while.</p><br> 
 			</div>
 		</div>
 	</div>
+	
+	<script type="text/javascript">
+		function myFunction() {
+    		var x = document.getElementById("myTopnav");
+    		if (x.className === "topnav") {
+        	x.className += " responsive";
+    			} 
+    		else {
+        		x.className = "topnav";
+    		}
+    	}
+	</script>
 </body>
 </html>
