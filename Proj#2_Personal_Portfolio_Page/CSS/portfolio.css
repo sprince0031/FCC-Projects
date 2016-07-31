@@ -1,6 +1,6 @@
 
 body {
-	background-color: #131313 !important;
+	background-color: #a6a6a6 !important;
 }
 
 header {
@@ -137,8 +137,9 @@ li i:hover {
 	background-position: center;
 	background-size: cover;
 	text-align: center;
-	align-items: center;
 	height: 100vh;
+	
+	
 	/*
   http://goo.gl/Tolr2Y
 	http://goo.gl/k5enZ0
